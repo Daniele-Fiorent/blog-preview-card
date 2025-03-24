@@ -1,0 +1,17 @@
+:root{
+    /* COLORS */
+    --background-color-body:  hsl(47, 88%, 63%);
+    --background-color-card: hsl(0, 0%, 100%);
+    --color-gray-950: hsl(0, 0%, 7%);
+    --color-gray-500: hsl(0, 0%, 42%);
+
+    /* TYPOGRAPHY */
+    --font-family: Figtree, sans-serif;
+
+    /* HEADINGS */
+    --text-heading-desktop-size: 1.5rem; /*24px*/
+    --text-heading-desktop-line-height: 1.5;
+    --text-heading-desktop-letter-spacing: 0;
+    --text-heading-desktop-weight: 800;
+
+    

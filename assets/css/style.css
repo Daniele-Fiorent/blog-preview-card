@@ -7,11 +7,43 @@
 
     /* TYPOGRAPHY */
     --font-family: Figtree, sans-serif;
+    --text-line-height: 1.5;
+    --text-letter-spacing: 0;
+    --text-extra-bold:800;
 
     /* HEADINGS */
-    --text-heading-desktop-size: 1.5rem; /*24px*/
-    --text-heading-desktop-line-height: 1.5;
-    --text-heading-desktop-letter-spacing: 0;
-    --text-heading-desktop-weight: 800;
+    --text-heading-lg-size: 1.5rem; /*24px*/
+    --text-heading-sm-size: 1.25rem; /*20px*/
 
-    
+    /* BODY TEXT */
+    --text-lg-size: 1rem; /*16px*/
+    --text-md-size: 0.87rem; /*14px*/
+    --text-sm-size: 0.75rem; /*12px*/
+
+    /* SPACING */
+    --spacing-extra-lg: 1.5rem; /*24px*/
+    --spacing-lg: 0.75rem; /*12px*/
+    --spacing-md: 0.5rem; /*8px*/
+    --spacing-sm: 0.25rem; /*4px*/
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+
+  /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}

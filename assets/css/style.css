@@ -47,3 +47,91 @@ ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
+
+body{
+    background: var(--background-color-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    min-height: 100svh;
+    font-family: var(--font-family);
+    line-height: var(--text-line-height);
+    letter-spacing: var(--text-letter-spacing);
+    gap: var(--spacing-extra-lg);
+}
+
+.card {
+    background: var(--background-color-card);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid var(--color-gray-950);
+    max-width: 24rem;
+    padding: var(--spacing-extra-lg);
+    color: var(--color-gray-950);
+    box-shadow: 0.56rem 0.56rem 0rem rgb(0, 0, 0);
+}
+
+.card img{
+    border-radius: 10px;
+    display: block;
+    height: auto;
+}
+
+.card_text{
+    padding: var(--spacing-extra-lg) 0;
+}
+
+.card_text h2{ 
+    font-size: var(--text-heading-lg-size);
+    font-weight: var(--text-extra-bold);
+}
+
+.card_text h2:hover{
+    color: var(--background-color-body); 
+    cursor: pointer;
+}
+
+.card_text p{ 
+    font-size: var(--text-lg-size);
+    padding-top: var(--spacing-lg);
+}
+
+.card_text-label h4{ 
+    font-weight: var(--text-extra-bold);
+    font-size: var(--text-md-size);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background: var(--background-color-body);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.card_text-label p{ 
+    font-size: var(--text-md-size);
+    padding: var(--spacing-lg) 0;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--text-md-size);
+    font-weight: var(--text-extra-bold);
+    gap: var(--spacing-lg);
+}
+
+figure img{
+    max-width: 2rem;
+}
+
+    /*HELPERS*/
+
+.gray-500{
+    color: var(--color-gray-500);
+}
+
+.img-res{
+    max-width: 100%;
+}

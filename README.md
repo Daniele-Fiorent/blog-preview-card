@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Screenshot%20of%20the%20solution.jpg)
+(/Screenshot%20of%20the%20solution.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-blog-preview-card-bmZ6sLeHmK
+- Live Site URL: https://daniele-fiorent.github.io/blog-preview-card/
 
 ## My process
 

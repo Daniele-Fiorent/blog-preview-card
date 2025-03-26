@@ -1,3 +1,5 @@
+@import url('/assets/css/fonts.css');
+
 :root{
     /* COLORS */
     --background-color-body:  hsl(47, 88%, 63%);
@@ -6,10 +8,11 @@
     --color-gray-500: hsl(0, 0%, 42%);
 
     /* TYPOGRAPHY */
-    --font-family: Figtree, sans-serif;
+    --font-family: 'Figtree', sans-serif;
     --text-line-height: 1.5;
     --text-letter-spacing: 0;
     --text-extra-bold:800;
+    --text-medium:500;
 
     /* HEADINGS */
     --text-heading-lg-size: 1.5rem; /*24px*/
@@ -96,6 +99,7 @@ body{
 .card_text p{ 
     font-size: clamp(var(--text-md-size), 2vw, var(--text-lg-size));
     padding-top: var(--spacing-lg);
+    font-weight: var(--text-medium);
 }
 
 .card_text-label {
@@ -113,6 +117,7 @@ body{
 .card_text-label p{ 
     font-size: clamp(var(--text-sm-size), 2vw, var(--text-md-size));
     padding: var(--spacing-lg) 0;
+    font-weight: var(--text-medium);
 }
 
 figure {

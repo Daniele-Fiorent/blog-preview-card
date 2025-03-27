@@ -45,6 +45,16 @@ html {
     text-size-adjust: none;
   }
 
+a {
+    text-decoration: none;
+    color: var(--color-gray-950);
+
+    &:hover{
+        color: var(--background-color-body); 
+        cursor: pointer;
+    }
+}
+
   /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
 ol[role='list'] {
@@ -86,27 +96,8 @@ body{
     padding: var(--spacing-extra-lg) 0;
 }
 
-.card_text h2{ 
-    font-size: clamp(var(--text-heading-sm-size), 2vw, var(--text-heading-lg-size));
-    font-weight: var(--text-extra-bold);
-}
-
-.card_text h2:hover{
-    color: var(--background-color-body); 
-    cursor: pointer;
-}
-
-.card_text p{ 
-    font-size: clamp(var(--text-md-size), 2vw, var(--text-lg-size));
-    padding-top: var(--spacing-lg);
-    font-weight: var(--text-medium);
-}
-
-.card_text-label {
-    font-size: clamp(var(--text-sm-size), 2vw, var(--text-md-size));
-}
-
-.card_text-label h4{ 
+.card_tag{ 
+    font-size: clamp(var(--text-sm-size), 0.5959rem + 0.6575vw, var(--text-md-size));
     font-weight: var(--text-extra-bold);
     padding: var(--spacing-sm) var(--spacing-lg);
     background: var(--background-color-body);
@@ -114,15 +105,24 @@ body{
     display: inline-block;
 }
 
-.card_text-label p{ 
-    font-size: clamp(var(--text-sm-size), 2vw, var(--text-md-size));
+.card_time {
+    font-size: clamp(var(--text-sm-size), 0.5959rem + 0.6575vw, var(--text-md-size));
     padding: var(--spacing-lg) 0;
+    font-weight: var(--text-medium);
+}
+
+h1{ 
+    font-size: clamp(var(--text-heading-sm-size), 0.9289rem + 1.3699vw, var(--text-heading-lg-size));
+    font-weight: var(--text-extra-bold);
+}
+
+.description {
+    font-size: clamp(var(--text-md-size), 0.7030rem + 0.7123vw, var(--text-lg-size));
     font-weight: var(--text-medium);
 }
 
 figure {
     display: flex;
-    flex-direction: row;
     align-items: center;
     font-size: var(--text-md-size);
     font-weight: var(--text-extra-bold);

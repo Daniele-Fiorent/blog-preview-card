@@ -67,7 +67,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem;
+    padding: 16px;
     min-height: 100svh;
     font-family: var(--font-family);
     line-height: var(--text-line-height);
